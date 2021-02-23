@@ -30,6 +30,8 @@ public class Adventurer : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(Vector3.up * jumpingSpeed * Time.deltaTime);
+//nice work
+
         }
     }
 }
