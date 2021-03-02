@@ -14,18 +14,10 @@ public class Adventurer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int movementSpeed = 5;
+        //int movementSpeed = 5;
         int jumpingSpeed = 10;
 
-        if (Input.GetKey(KeyCode.A))
-        {
-
-            transform.Translate(Vector3.left * movementSpeed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.right * movementSpeed * Time.deltaTime);
-        }
+        //transform.Translate(Vector3.right * movementSpeed * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.W))
         {
