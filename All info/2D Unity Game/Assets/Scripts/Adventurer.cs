@@ -4,19 +4,26 @@ using UnityEngine;
 
 public class Adventurer : MonoBehaviour
 {
+    public float gravityModifier;
+    public float movementSpeed;
+    public float jumpforce;   
+    private Rigidbody2D playerRB;
+    public GameObject projectilePrefab;
+    public GameObject enemy;
+
     // Start is called before the first frame update
     void Start()
     {
-      
+        playerRB = GetComponent<Rigidbody2D>();
+        //Physics2D.gravity *= gravityModifier;
+        
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        int movementSpeed = 5;
-        int jumpingSpeed = 10;
-
+        
         if (Input.GetKey(KeyCode.A))
         {
 
@@ -29,7 +36,22 @@ public class Adventurer : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(Vector3.up * jumpingSpeed * Time.deltaTime);
+            playerRB.AddForce(Vector3.up * jumpforce, ForceMode2D.Impulse);
+        }
+
+        // Launch projectile
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Game Over!");
+        }
+    }
+
 }
