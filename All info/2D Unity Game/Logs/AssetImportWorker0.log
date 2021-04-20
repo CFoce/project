@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.5f1 (e2c53f129de5) revision 14861631'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 8140 MB
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 8140 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Jean Paul/Documents/Project2/project/All info/2D Unity Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53443
+52186
 Successfully changed project path to: C:/Users/Jean Paul/Documents/Project2/project/All info/2D Unity Game
 C:/Users/Jean Paul/Documents/Project2/project/All info/2D Unity Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.5f1 (e2c53f129de5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,193 +35,112 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002227 seconds.
+Registered in 0.002138 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
+- Completed reload, in  1.262 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000964 seconds.
+Registered in 0.000981 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
+- Completed reload, in  1.023 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.3 MB.
 System memory in use after: 84.4 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2245.
-Total: 2.296300 ms (FindLiveObjects: 0.203600 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.978800 ms  DeleteObjects: 0.066500 ms)
+Total: 2.090300 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.056100 ms MarkObjects: 1.756300 ms  DeleteObjects: 0.059900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Tileset
-  artifactKey: Guid(ef98c158d5905a541ba378fd2f47d395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset using Guid(ef98c158d5905a541ba378fd2f47d395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb8b1121328c0ed0c1eaab88e11ff08') in 0.010121 seconds
-  Import took 0.013321 seconds .
+  path: Assets/Tileset/Level 4 Tileset.prefab
+  artifactKey: Guid(d91a706148c57f44a93d7bf60997315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Level 4 Tileset.prefab using Guid(d91a706148c57f44a93d7bf60997315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5176e32264811ef4fda918e5bd2ce4ae') in 0.128268 seconds
+  Import took 0.131565 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 1.962000 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.712000 ms  DeleteObjects: 0.017500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.467521 seconds.
-  path: Assets/Tileset/New Folder
-  artifactKey: Guid(6876dc86dbabe6a4cb7ce37af77a778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/New Folder using Guid(6876dc86dbabe6a4cb7ce37af77a778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3f4194cf791bed11d80d3e31df22ea') in 0.013568 seconds
-  Import took 0.016966 seconds .
+  Time since last request: 99.834665 seconds.
+  path: Assets/Tileset/Level 1 Tileset.prefab
+  artifactKey: Guid(c7dc48bfb1a1e9940ab55ce94d2dce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Level 1 Tileset.prefab using Guid(c7dc48bfb1a1e9940ab55ce94d2dce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035f1cf66ae41ae650e8e05efc4d8076') in 0.084657 seconds
+  Import took 0.088581 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.413599 seconds.
-  path: Assets/Tileset/New Folder 1
-  artifactKey: Guid(865577fe7f6c90b4d94e33b182cebf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/New Folder 1 using Guid(865577fe7f6c90b4d94e33b182cebf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a558b56898ff8e97e809b0ec87773c') in 0.008425 seconds
-  Import took 0.013222 seconds .
+  Time since last request: 0.994839 seconds.
+  path: Assets/Tileset/Level 2 Tileset.prefab
+  artifactKey: Guid(740480ec43428cc4a978b745cc579129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Level 2 Tileset.prefab using Guid(740480ec43428cc4a978b745cc579129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15564503e94704c3135d1b35215a4cb') in 0.021012 seconds
+  Import took 0.024534 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.449060 seconds.
-  path: Assets/Tileset/New Folder 2
-  artifactKey: Guid(4a8053263ce05ff43be924308b1fab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/New Folder 2 using Guid(4a8053263ce05ff43be924308b1fab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2238aa33286da82a3229f1ae9ffc0185') in 0.003230 seconds
-  Import took 0.007310 seconds .
+  Time since last request: 2.213781 seconds.
+  path: Assets/Tileset/Level 3 Tileset.prefab
+  artifactKey: Guid(b67f47d36bbfaf941bc12d8beba50020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Level 3 Tileset.prefab using Guid(b67f47d36bbfaf941bc12d8beba50020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414c6e096592978126ad28e018dd9908') in 0.023851 seconds
+  Import took 0.027143 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.670789 seconds.
-  path: Assets/Tileset/New Folder 3
-  artifactKey: Guid(e84cf79aa2a412d4ea2bcec55c1319a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/New Folder 3 using Guid(e84cf79aa2a412d4ea2bcec55c1319a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a89f2b3715310aee824a0155fbd8c7a') in 0.011636 seconds
-  Import took 0.015623 seconds .
+  Time since last request: 1.636160 seconds.
+  path: Assets/Tileset/Level 4 Tileset.prefab
+  artifactKey: Guid(d91a706148c57f44a93d7bf60997315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Level 4 Tileset.prefab using Guid(d91a706148c57f44a93d7bf60997315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0dfa88ece0f0756fbb9ee1ab0e98a7') in 0.021144 seconds
+  Import took 0.024574 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.251221 seconds.
-  path: Assets/Tileset/New Folder 4
-  artifactKey: Guid(7dc8fd7d1b79302478ba8203caceb282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/New Folder 4 using Guid(7dc8fd7d1b79302478ba8203caceb282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788e90de9b701733c6f19af720e8e003') in 0.007878 seconds
-  Import took 0.010937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.401965 seconds.
-  path: Assets/Tileset/Extras
-  artifactKey: Guid(6876dc86dbabe6a4cb7ce37af77a778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Extras using Guid(6876dc86dbabe6a4cb7ce37af77a778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805197a2ea4751a912c199371922ec94') in 0.005340 seconds
-  Import took 0.009848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.427216 seconds.
-  path: Assets/Tileset/Sky-Blocks
-  artifactKey: Guid(865577fe7f6c90b4d94e33b182cebf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Sky-Blocks using Guid(865577fe7f6c90b4d94e33b182cebf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38342a768af321271039c5f80575740e') in 0.009988 seconds
-  Import took 0.012698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.990659 seconds.
-  path: Assets/Tileset/Ground-blocks
-  artifactKey: Guid(4a8053263ce05ff43be924308b1fab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Ground-blocks using Guid(4a8053263ce05ff43be924308b1fab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd5a7e9782091f0480ae8456b5b8f12') in 0.006991 seconds
-  Import took 0.010185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.072832 seconds.
-  path: Assets/Tileset/Rock-blocks
-  artifactKey: Guid(e84cf79aa2a412d4ea2bcec55c1319a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Rock-blocks using Guid(e84cf79aa2a412d4ea2bcec55c1319a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746424ce4cd79cf94764f3ac9d0d816b') in 0.004018 seconds
-  Import took 0.007264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.726754 seconds.
-  path: Assets/Tileset/Stone-blocks
-  artifactKey: Guid(7dc8fd7d1b79302478ba8203caceb282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Stone-blocks using Guid(7dc8fd7d1b79302478ba8203caceb282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea55adca9f07642e8835559d96dc5bbb') in 0.007760 seconds
-  Import took 0.010937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.757845 seconds.
-  path: Assets/Tileset/Extras/TREE_1.png
-  artifactKey: Guid(2e5964ecce6ab004e828c9ed5fd0f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Extras/TREE_1.png using Guid(2e5964ecce6ab004e828c9ed5fd0f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691f3b364fbe0ac5f5892f072278c9d6') in 0.145060 seconds
-  Import took 0.148290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.599680 seconds.
-  path: Assets/Tileset/Ground-blocks/BLOCK_20.png
-  artifactKey: Guid(951fa9a588265a04ca1b3f7d431f0505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Ground-blocks/BLOCK_20.png using Guid(951fa9a588265a04ca1b3f7d431f0505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92db128af63e5aab7d2399c5224e2291') in 0.018430 seconds
-  Import took 0.021366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.706587 seconds.
-  path: Assets/Tileset/Rock-blocks/BLOCK_10.png
-  artifactKey: Guid(6aeebb0a04949814280159c267cdae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Rock-blocks/BLOCK_10.png using Guid(6aeebb0a04949814280159c267cdae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a580b69cf77fd9fe8d744d72a25d9dd6') in 0.018009 seconds
-  Import took 0.020983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.439632 seconds.
-  path: Assets/Tileset/Sky-Blocks/SKY_BLOCK 2.png
-  artifactKey: Guid(b9b296a71306d534892034bb372e1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Sky-Blocks/SKY_BLOCK 2.png using Guid(b9b296a71306d534892034bb372e1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a1cd1b57854d3b61b61bd429e3d505') in 0.020922 seconds
-  Import took 0.023894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.157392 seconds.
-  path: Assets/Tileset/Stone-blocks/BLOCK_12.png
-  artifactKey: Guid(b0c1f1c5dcc4be64da1f57bc8dbde97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Stone-blocks/BLOCK_12.png using Guid(b0c1f1c5dcc4be64da1f57bc8dbde97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acbf8bc122e9e03003a6a7c80f17dc6') in 0.020999 seconds
-  Import took 0.023983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.126386 seconds.
-  path: Assets/Tileset/Stone-blocks/BLOCK_11.png
-  artifactKey: Guid(f75d38a96dcbe694b94ad44a651c865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Stone-blocks/BLOCK_11.png using Guid(f75d38a96dcbe694b94ad44a651c865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3d5baa1c3b7fdd9d8031baf6ee9dc6') in 0.019148 seconds
-  Import took 0.022073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.647177 seconds.
-  path: Assets/Tileset/Stone-blocks/BLOCK_1.png
-  artifactKey: Guid(17b9752520039bc4fb47ded4fdd190eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Stone-blocks/BLOCK_1.png using Guid(17b9752520039bc4fb47ded4fdd190eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7908ad7c90c36271d79a8f47c538e1') in 0.014778 seconds
-  Import took 0.017670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.579299 seconds.
-  path: Assets/Tileset/Stone-blocks/BLOCK_6.png
-  artifactKey: Guid(cb49d7a510421c34ba8ab361ab95ef47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Stone-blocks/BLOCK_6.png using Guid(cb49d7a510421c34ba8ab361ab95ef47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4b0b2c6beca33e0a1112a570aadb55') in 0.015752 seconds
-  Import took 0.018668 seconds .
+  Time since last request: 17.017713 seconds.
+  path: Assets/Tileset/Finish tileset
+  artifactKey: Guid(a7bf2db0e9b3cb949bb366121c3108f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Finish tileset using Guid(a7bf2db0e9b3cb949bb366121c3108f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d64f794f4e3561a3d453bda9bd3a5d') in 0.008334 seconds
+  Import took 0.011208 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
