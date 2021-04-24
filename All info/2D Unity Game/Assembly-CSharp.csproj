@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Adventurer.cs" />
     <Compile Include="Assets\Scripts\CamMovement.cs" />
     <Compile Include="Assets\Scripts\Parallex.cs" />
+    <Compile Include="Assets\Scripts\LevelGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
